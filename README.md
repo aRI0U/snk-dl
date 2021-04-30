@@ -13,7 +13,7 @@ Ce script bash permet de télécharger automatiquement tous les scans de l'Attaq
 
 1. Choisir le dossier où doivent être téléchargés les scans en éditant la variable `dest_dir` (ligne 2 du script `download.sh`)
 
-2. Choisir les chapitres à télécharger (par défaut 1 à 138 inclus) en modifiant la ligne 6 du script `download.sh`
+2. Choisir les chapitres à télécharger (par défaut 1 à 139 inclus) en modifiant la ligne 6 du script `download.sh`
 
 3. Ouvrir un terminal et exécuter le script
 

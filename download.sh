@@ -3,12 +3,12 @@ dest_dir=~/Documents/Scans/Shingeki\ no\ Kyojin
 
 mkdir -p "$dest_dir"
 
-for ((chapter=1; chapter<=138; ++chapter))
+for ((chapter=1; chapter<=139; ++chapter))
 do
     echo Chapitre $chapter 
     # create chapter dir
     chapter_dir=$dest_dir/Chapitre\ $chapter
-    mkdir "$chapter_dir"
+    mkdir -p "$chapter_dir"
     
     # build url
     if (( $chapter < 130 ))
